@@ -93,7 +93,7 @@ class auth_oauth_provider(models.Model):
     }
 
 
-class res_users(osv.Model):
+class res_users(models.Model):
     _inherit = 'res.users'
 
 

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="provider_qq" model="auth.oauth.provider">
+            <field name="name">u"QQ登录"</field>
+            <field name="provider_type" >qq</field>
+            <field name="auth_endpoint">https://graph.qq.com/oauth2.0/authorize</field>
+            <field name="scope"></field>
+            <field name="validation_endpoint">https://graph.qq.com/oauth2.0/token</field>
+            <field name="data_endpoint">https://graph.qq.com/oauth2.0/me</field>
+            <field name="css_class">fa fa-qq</field>
+            <field name="body">Log in with QQ</field>
+        </record>
+
+    </data>
+</openerp>

@@ -1,0 +1,566 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* im_livechat
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 7.saas~4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-23 16:27+0000\n"
+"PO-Revision-Date: 2014-09-25 19:41+0800\n"
+"Last-Translator: 保定-粉刷匠 <992102498@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: im_livechat
+#: view:website:im_livechat.loader
+msgid ""
+"\" || '',\n"
+"                        auto: window.oe_im_livechat_auto || false,\n"
+"                        defaultUsername: \""
+msgstr ""
+"\" || '',\n"
+"                        auto: window.oe_im_livechat_auto || false,\n"
+"                        defaultUsername: \""
+
+#. module: im_livechat
+#: view:website:im_livechat.loader
+msgid ""
+"\" || undefined,\n"
+"                    });\n"
+"            })();"
+msgstr ""
+"\" || undefined,\n"
+"                    });\n"
+"            })();"
+
+#. module: im_livechat
+#: view:website:im_livechat.loader
+msgid ""
+"\",\n"
+"                        defaultMessage: \""
+msgstr ""
+"\",\n"
+"                        默认信息： \""
+
+#. module: im_livechat
+#: view:website:im_livechat.loader
+msgid ""
+"\",\n"
+"                        inputPlaceholder: \""
+msgstr ""
+"\",\n"
+"                        输入占位符： \""
+
+#. module: im_livechat
+#: view:website:im_livechat.loader
+msgid ""
+"\",\n"
+"                    \""
+msgstr ""
+"\",\n"
+"                    \""
+
+#. module: im_livechat
+#: view:website:im_livechat.loader
+msgid ""
+",\n"
+"                    {\n"
+"                        buttonText: \""
+msgstr ""
+",\n"
+"                    {\n"
+"                        按钮文本： \""
+
+#. module: im_livechat
+#: model:ir.actions.act_window,help:im_livechat.action_support_channels
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to define a new live chat channel.\n"
+"              </p><p>\n"
+"                You can create channels for each website on which you want\n"
+"                to integrate the live chat widget, allowing you website\n"
+"                visitors to talk in real time with your operators.\n"
+"              </p><p>\n"
+"                Each channel has it's own URL that you can send by email to\n"
+"                your customers in order to start chatting with you.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"               点击来创建一个新的即时聊天频道。.\n"
+"              </p><p>\n"
+"                你可以在集成了即时聊天插件的每一个网站创建频道。\n"
+"               这将允许你的网站参观者来和你的操作员进行实时谈话。\n"
+"              \n"
+"              </p><p>\n"
+"                每一个频道都有自己的网址。\n"
+"               你可以通过电子邮件将其发给要进行谈话的客户。\n"
+"              </p>\n"
+"            "
+
+#. module: im_livechat
+#: field:im_chat.session,anonymous_name:0
+msgid "Anonymous Name"
+msgstr "匿名用户姓名"
+
+#. module: im_livechat
+#: field:im_livechat.channel,are_you_inside:0
+msgid "Are you inside the matrix?"
+msgstr "您是否在矩阵？"
+
+#. module: im_livechat
+#: field:im_chat.session,channel_id:0
+msgid "Channel"
+msgstr "频道"
+
+#. module: im_livechat
+#: field:im_livechat.channel,name:0
+msgid "Channel Name"
+msgstr "频道名称"
+
+#. module: im_livechat
+#: model:ir.ui.menu,name:im_livechat.support_channels
+msgid "Channels"
+msgstr "频道列表"
+
+#. module: im_livechat
+#: field:im_livechat.channel,input_placeholder:0
+msgid "Chat Input Placeholder"
+msgstr "聊天输入为空时显示"
+
+#. module: im_livechat
+#. openerp-web
+#: code:addons/im_livechat/static/src/js/im_livechat.js:85
+#, python-format
+msgid "Chat with one of our collaborators"
+msgstr "和我们的合作者聊天"
+
+#. module: im_livechat
+#: field:im_chat.session,fullname:0
+msgid "Complete name"
+msgstr "完整姓名"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid ""
+"Copy and paste this code into your website, within the &lt;head&gt; tag:"
+msgstr "将此代码复制并粘贴到你的网站的&lt;head&gt;标签内："
+
+#. module: im_livechat
+#: field:im_livechat.channel,create_uid:0
+msgid "Created by"
+msgstr "创建人"
+
+#. module: im_livechat
+#: field:im_livechat.channel,create_date:0
+msgid "Created on"
+msgstr "创建在"
+
+#. module: im_livechat
+#: view:im_chat.message:im_livechat.im_message_search
+msgid "Date"
+msgstr "日期"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid ""
+"For website built with Odoo CMS, please install the website_livechat module. "
+"Then go to Settings > Website Settings and select the Live Chat Channel you "
+"want to add on your website."
+msgstr ""
+"对于带有Odoo CMS 的网站，请安装 website_livechat 模块。 然后到 设置 > 网站设"
+"置，选择要添加到你的站点的即时聊天频道。"
+
+#. module: im_livechat
+#: view:im_chat.message:im_livechat.im_message_search
+msgid "Group By..."
+msgstr "分组..."
+
+#. module: im_livechat
+#: view:im_chat.message:im_livechat.im_message_form
+#: model:ir.actions.act_window,name:im_livechat.action_history
+#: model:ir.ui.menu,name:im_livechat.history
+msgid "History"
+msgstr "历史"
+
+#. module: im_livechat
+#. openerp-web
+#: code:addons/im_livechat/static/src/js/im_livechat.js:87
+#, python-format
+msgid "How may I help you?"
+msgstr "有什么可以帮你的吗？"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "How to use the Live Chat widget?"
+msgstr "如何使用即时聊天工具？"
+
+#. module: im_livechat
+#: field:im_livechat.channel,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_kanban
+msgid "Join"
+msgstr "加入"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "Join Channel"
+msgstr "加入频道"
+
+#. module: im_livechat
+#: field:im_livechat.channel,write_uid:0
+msgid "Last Updated by"
+msgstr "最后更新被"
+
+#. module: im_livechat
+#: field:im_livechat.channel,write_date:0
+msgid "Last Updated on"
+msgstr "最后更新在"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "Leave Channel"
+msgstr "离开频道"
+
+#. module: im_livechat
+#: model:ir.ui.menu,name:im_livechat.im_livechat
+msgid "Live Chat"
+msgstr "即时聊天"
+
+#. module: im_livechat
+#: model:ir.actions.act_window,name:im_livechat.action_support_channels
+msgid "Live Chat Channels"
+msgstr "即时聊天频道"
+
+#. module: im_livechat
+#: view:website:im_livechat.support_page
+msgid "Live Chat Powered by"
+msgstr "即时聊天的推进者为"
+
+#. module: im_livechat
+#: model:ir.module.category,name:im_livechat.module_category_im_livechat
+msgid "Live Support"
+msgstr "即时服务"
+
+#. module: im_livechat
+#: view:website:im_livechat.support_page
+msgid "Livechat Support Page"
+msgstr "即时聊天支持页面"
+
+#. module: im_livechat
+#: model:res.groups,name:im_livechat.group_im_livechat_manager
+msgid "Manager"
+msgstr "管理员"
+
+#. module: im_livechat
+#: field:im_livechat.channel,image_medium:0
+msgid "Medium-sized photo"
+msgstr "中等大小的照片"
+
+#. module: im_livechat
+#: help:im_livechat.channel,image_medium:0
+msgid ""
+"Medium-sized photo of the group. It is automatically resized as a 128x128px "
+"image, with aspect ratio preserved. Use this field in form views or some "
+"kanban views."
+msgstr ""
+"中等大小图片组。它能自动调整大小为128x128px图像，按纵横比保存。在窗体视图或看"
+"板视图使用这个字段。"
+
+#. module: im_livechat
+#: view:im_chat.message:im_livechat.im_message_search
+msgid "My Sessions"
+msgstr "我的会话"
+
+#. module: im_livechat
+#. openerp-web
+#: code:addons/im_livechat/static/src/js/im_livechat.js:137
+#, python-format
+msgid ""
+"None of our collaborators seems to be available, please try again later."
+msgstr "你的合作者似乎都不在先，请稍后再次尝试。"
+
+#. module: im_livechat
+#: view:website:im_livechat.support_page
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "Operators"
+msgstr "操作员"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "Options"
+msgstr "选项"
+
+#. module: im_livechat
+#: field:im_livechat.channel,image:0
+msgid "Photo"
+msgstr "图片"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_kanban
+msgid "Quit"
+msgstr "退出"
+
+#. module: im_livechat
+#: field:im_livechat.channel,script_external:0
+msgid "Script (external)"
+msgstr "脚本（外部）"
+
+#. module: im_livechat
+#: field:im_livechat.channel,script_internal:0
+msgid "Script (internal)"
+msgstr "脚本（内部）"
+
+#. module: im_livechat
+#: view:im_chat.message:im_livechat.im_message_search
+msgid "Search history"
+msgstr "搜索历史"
+
+#. module: im_livechat
+#: view:im_chat.message:im_livechat.im_message_search
+msgid "Session"
+msgstr "会话"
+
+#. module: im_livechat
+#: field:im_livechat.channel,image_small:0
+msgid "Small-sized photo"
+msgstr "小尺寸的照片"
+
+#. module: im_livechat
+#: help:im_livechat.channel,image_small:0
+msgid ""
+"Small-sized photo of the group. It is automatically resized as a 64x64px "
+"image, with aspect ratio preserved. Use this field anywhere a small image is "
+"required."
+msgstr ""
+"小尺寸图片组。它能自动调整大小为64x64px图像，按纵横比保存。在任何一个需要小的"
+"图像的位置使用这个字段。"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "Support Channels"
+msgstr "Support Channels"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "Test"
+msgstr "测试"
+
+#. module: im_livechat
+#: field:im_livechat.channel,button_text:0
+msgid "Text of the Button"
+msgstr "按钮的文本"
+
+#. module: im_livechat
+#: model:res.groups,comment:im_livechat.group_im_livechat_manager
+msgid "The user will be able to delete support channels."
+msgstr "允许用户删除服务支持频道。"
+
+#. module: im_livechat
+#: model:res.groups,comment:im_livechat.group_im_livechat
+msgid "The user will be able to join support channels."
+msgstr "用户能够加入服务支持频道。"
+
+#. module: im_livechat
+#: help:im_livechat.channel,image:0
+msgid ""
+"This field holds the image used as photo for the group, limited to "
+"1024x1024px."
+msgstr "这个字段包含用于组照片的图像，限于1024x1024px。"
+
+#. module: im_livechat
+#: help:im_livechat.channel,default_message:0
+msgid ""
+"This is an automated 'welcome' message that your visitor will see when they "
+"initiate a new chat session."
+msgstr "这是您的访问者开始他们新的聊天会话时将看到一个自动的‘欢迎’消息。"
+
+#. module: im_livechat
+#: model:res.groups,name:im_livechat.group_im_livechat
+msgid "User"
+msgstr "用户"
+
+#. module: im_livechat
+#: field:im_livechat.channel,user_ids:0
+msgid "Users"
+msgstr "用户"
+
+#. module: im_livechat
+#. openerp-web
+#: code:addons/im_livechat/static/src/js/im_livechat.js:88
+#, python-format
+msgid "Visitor"
+msgstr "访问者"
+
+#. module: im_livechat
+#: field:im_livechat.channel,web_page:0
+msgid "Web Page"
+msgstr "Web页"
+
+#. module: im_livechat
+#: field:im_livechat.channel,default_message:0
+msgid "Welcome Message"
+msgstr "欢迎信息"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "e.g. Hello, how may I help you?"
+msgstr "例如：嗨！有什么可以帮你的吗？"
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "e.g. YourWebsite.com"
+msgstr "例如：你的网站地址 "
+
+#. module: im_livechat
+#: view:im_livechat.channel:im_livechat.support_channel_form
+msgid "or copy this url and send it by email to your customers or suppliers:"
+msgstr "或者拷贝这个URL并且通过邮件发送给您的客户、供应商："
+
+#~ msgid "Anonymous"
+#~ msgstr "匿名用户"
+
+#~ msgid "\","
+#~ msgstr "\","
+
+#~ msgid ""
+#~ "(function() {\n"
+#~ "                window.livesupport = new openerp.im_livechat."
+#~ "LiveSupport(\n"
+#~ "                    \""
+#~ msgstr ""
+#~ "(function() {\n"
+#~ "                window.livesupport = new openerp.im_livechat."
+#~ "LiveSupport(\n"
+#~ "                    \""
+
+#~ msgid "<!DOCTYPE html>"
+#~ msgstr "<!DOCTYPE html>"
+
+#~ msgid ""
+#~ "body {\n"
+#~ "                            height: 100%;\n"
+#~ "                            font-size: 16px;\n"
+#~ "                            font-weight: 400;\n"
+#~ "                            font-family: \"Lato\", \"Lucida Grande\", "
+#~ "\"Helvetica neue\", \"Helvetica\", \"Verdana\", \"Arial\", sans-serif;\n"
+#~ "                            overflow: hidden;\n"
+#~ "                            overflow-y: auto;\n"
+#~ "                            display: block;\n"
+#~ "                            margin: 0;\n"
+#~ "                            padding: 0;\n"
+#~ "                            border: none;\n"
+#~ "                            width: 100%;\n"
+#~ "                            height: 100%;\n"
+#~ "                            background: #C9C8E0;\n"
+#~ "                            background-image: -webkit-linear-"
+#~ "gradient(top, #7c7bad, #ddddee);\n"
+#~ "                            background-image: -moz-linear-gradient(top, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            background-image: -ms-linear-gradient(top, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            background-image: -o-linear-gradient(top, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            background-image: linear-gradient(to bottom, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            filter: progid:DXImageTransform.Microsoft."
+#~ "gradient( startColorstr='#7c7bad', endColorstr='#ddddee',"
+#~ "GradientType=0 );\n"
+#~ "                            -webkit-background-size: cover;\n"
+#~ "                            -moz-background-size: cover;\n"
+#~ "                            -o-background-size: cover;\n"
+#~ "                            background-size: cover;\n"
+#~ "                            background-repeat: no-repeat;\n"
+#~ "                            background-attachment: fixed;\n"
+#~ "                        }\n"
+#~ "                        .main {\n"
+#~ "                            position: absolute;\n"
+#~ "                            opacity: 0;\n"
+#~ "                            top: 50%;\n"
+#~ "                            width: 100%;\n"
+#~ "                            margin-top: -150px;\n"
+#~ "                            color: white;\n"
+#~ "                            text-shadow: 0 1px 0 rgba(34, 52, 72, 0.2);\n"
+#~ "                            text-align: center;\n"
+#~ "                        }\n"
+#~ "                        .main h1 {\n"
+#~ "                            font-size: 54px;\n"
+#~ "                        }\n"
+#~ "                        .main div {\n"
+#~ "                            font-style: italic;\n"
+#~ "                        }"
+#~ msgstr ""
+#~ "body {\n"
+#~ "                            height: 100%;\n"
+#~ "                            font-size: 16px;\n"
+#~ "                            font-weight: 400;\n"
+#~ "                            font-family: \"Lato\", \"Lucida Grande\", "
+#~ "\"Helvetica neue\", \"Helvetica\", \"Verdana\", \"Arial\", sans-serif;\n"
+#~ "                            overflow: hidden;\n"
+#~ "                            overflow-y: auto;\n"
+#~ "                            display: block;\n"
+#~ "                            margin: 0;\n"
+#~ "                            padding: 0;\n"
+#~ "                            border: none;\n"
+#~ "                            width: 100%;\n"
+#~ "                            height: 100%;\n"
+#~ "                            background: #C9C8E0;\n"
+#~ "                            background-image: -webkit-linear-"
+#~ "gradient(top, #7c7bad, #ddddee);\n"
+#~ "                            background-image: -moz-linear-gradient(top, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            background-image: -ms-linear-gradient(top, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            background-image: -o-linear-gradient(top, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            background-image: linear-gradient(to bottom, "
+#~ "#7c7bad, #ddddee);\n"
+#~ "                            filter: progid:DXImageTransform.Microsoft."
+#~ "gradient( startColorstr='#7c7bad', endColorstr='#ddddee',"
+#~ "GradientType=0 );\n"
+#~ "                            -webkit-background-size: cover;\n"
+#~ "                            -moz-background-size: cover;\n"
+#~ "                            -o-background-size: cover;\n"
+#~ "                            background-size: cover;\n"
+#~ "                            background-repeat: no-repeat;\n"
+#~ "                            background-attachment: fixed;\n"
+#~ "                        }\n"
+#~ "                        .main {\n"
+#~ "                            position: absolute;\n"
+#~ "                            opacity: 0;\n"
+#~ "                            top: 50%;\n"
+#~ "                            width: 100%;\n"
+#~ "                            margin-top: -150px;\n"
+#~ "                            color: white;\n"
+#~ "                            text-shadow: 0 1px 0 rgba(34, 52, 72, 0.2);\n"
+#~ "                            text-align: center;\n"
+#~ "                        }\n"
+#~ "                        .main h1 {\n"
+#~ "                            font-size: 54px;\n"
+#~ "                        }\n"
+#~ "                        .main div {\n"
+#~ "                            font-style: italic;\n"
+#~ "                        }"
+
+#~ msgid "im_chat.session"
+#~ msgstr "im_chat.session"
+
+#~ msgid "im_livechat.channel"
+#~ msgstr "im即时聊天频道"
+
+#~ msgid "Script"
+#~ msgstr "脚本"
